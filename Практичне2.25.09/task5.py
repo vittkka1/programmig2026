@@ -1,0 +1,7 @@
+pi=3.14
+for n in range(1,10001):
+    f=(4*n**2)/(4*n**2 - 1)
+    pi=pi*f
+    if n%100==0:
+        print(n,pi)
+        
